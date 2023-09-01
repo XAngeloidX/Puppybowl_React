@@ -6,7 +6,7 @@ import './DogList.css';
 // dogs, onDelete are parameters
 function DogList({ dogs, onDelete }) {
   return (
-    <div className="dog-list">
+    <div className="dog_List">
       {dogs.map((dog) => (
         <DogCard key={dog.id} dog={dog} onDelete={onDelete} />
       ))}

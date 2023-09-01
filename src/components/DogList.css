@@ -1,0 +1,35 @@
+
+.dog_List {
+  display: grid;
+  gap: 50px;
+  padding: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.dog_Card {
+  border: 2px;
+  border-style: groove;
+  border-color: #cacaae;
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  background-color: #ffcb1ee7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.dog_Card img {
+  max-width: 100%;
+  height: auto;
+  border-style: double;
+  border-radius: 10px;
+}
+
+.dog_Card h3 {
+  margin: 0;
+}
+  
+.dog_Card button {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  background-color: blanchedalmond;
+}

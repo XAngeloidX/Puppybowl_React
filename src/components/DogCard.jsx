@@ -8,7 +8,7 @@ function DogCard({ dog, onDelete }) {
   };
 
   return (
-    <div className="dog-card">
+    <div className="dog_Card">
       <img src={dog.imageUrl} alt={dog.name} />
       <h3>{dog.name}</h3>
       <p>ID: {dog.id}</p>
